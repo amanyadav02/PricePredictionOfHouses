@@ -1,0 +1,11 @@
+#program to know the no is armstrong or not
+#code by aman yadav
+n=int(input("Enter the no to know armstrong or not"))
+a=str(n)
+c=0
+for i in a:
+    c+=int(i)**(len(a))
+if(c==int(a)):
+    print("ARMSTRONG")
+else:
+    print("NOT ARMSTRONG")
